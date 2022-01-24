@@ -1,0 +1,71 @@
+.header {
+    position: fixed;
+    width: 100%;
+    background:black;
+    z-index:50;
+    border-radius:5px;
+    padding-left:0px;
+    border-bottom: 1px solid #003351;
+	color:white;
+}
+.navbar-inverse .navbar-toggle {
+    border-color:none;
+}
+.header .navbar {
+margin:0px;
+
+background-repeat:no-repeat;
+background-size:cover;
+
+}
+    .navbar-inverse .navbar-toggle .icon-bar {
+        
+    }
+
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+        background:yellow;
+    }
+
+.navbar-inverse .navbar-toggle:hover .icon-bar {
+    background:black;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color:black;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+color:black;
+}
+
+.navbar-toggle {
+}
+.navbar-brand b {
+    color:white;
+	font-family:calibri;
+}
+.navbar-brand b:hover
+{
+	color:white;
+}
+.logo {
+    font-size: 30px;
+    text-shadow: none;
+    margin: 8px 0 0 0;
+}
+.navbar-inverse .navbar-nav > li > a {
+    font-size:20px;
+    margin: 10px;
+    padding-left:5px !important;
+    border-radius:0px;
+	color:white;
+	
+}
+.navbar-inverse .navbar-nav > li >a:hover
+{
+    color:yellow;
+	
+}
+
+.header .navbar-nav > li > a {
+    padding:12px;
+    text-transform:uppercase;
+}

@@ -1,0 +1,602 @@
+<html>
+	<head>
+    	<title>Profile</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+			<link href="css/bootstrap.min.css" rel="stylesheet"/>
+			<script src="js/jquery.js"></script>
+			<script src="js/bootstrap.min.js"></script>	
+			<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"/>		
+			<link href="css/icon.css" rel="stylesheet"/>
+			<link href="css/profile menu.css" rel="stylesheet"/>
+			<link href="css/gallery.css" rel="stylesheet"/>
+			<link href="css/card.css" rel="stylesheet"/>
+		</head>
+    <body background="image/f.jpeg" style="background-size:cover;background-attachment:fixed;">
+		<header class="header">
+			<div>
+				<nav class="navbar navbar-inverse"role="navigation">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button id="nav-toggle" class="navbar-toggle" data-toggle="collapse"data-target="#menu-nav">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand scroll-lop logo" href="#"><b>Shaikh Mohiuddin</b></a>
+						</div>
+						<div class="collapse navbar-collapse" id="menu-nav">
+							<ul class="nav navbar-nav pull-right">
+								<li><a href="#home"class="scroll-link">Home</a></li>
+								<li><a href="#about"class="scroll-link">About</a></li>
+								<li><a href="#education"class="scroll-link">My Eduction</a></li>
+								<li><a href="#skills"class="scroll-link">Skills</a></li>
+								<li><a href="#hobbies"class="scroll-link">My Hobbies</a></li>
+								<li><a href="#portfolio"class="scroll-link">Portfolio</a></li>	
+								<li><a href="#contact"class="scroll-link">Contact Me</a></li>      
+							</ul>
+							<script>
+								$('.navbar-collapse ul li a').click(function() {
+								$('.navbar-toggle:visible').click();
+								});
+							</script>
+							<script>$(document).on('click','.navbar-collapse.in',function(e) {
+							if( $(menu-nav.target).is('a') && ( $(menu-nav.target).attr('nav navbar-nav') != 'dropdown-toggle' ) ) {
+							$(this).collapse('hide');
+							}});</script>
+						</div>	
+					</div>
+				</nav>
+			</div>	
+		</header>
+				<div id="home" class="container-fluid">
+					<div class="row">
+						<img src="image/78.png" class="img-responsive" style="padding-top:15px;width:100%;height:100%"/>	
+					</div>
+				</div>
+				<div id="about" class="container-fluid">
+					<h1 align="center" style="color:blue;padding-top:40px;">About</h1>
+				  <div class="row">
+						<div class="col-md-5" style="padding-top:30px;">
+							<img src="image/bkfinal.png" class="img-responsive" style="height:400px;width:450px;"/>
+						</div>
+						<div class="col-md-6" style="padding-top:20px;">
+							<p align="justify" style="line-height:50px;color:white;font-size:32px;font-family:Gabriola">Hi ....! My Name Is Shaikh Mohiuddin .I am From Ajmer, I Have Completed My Senior & Secondary Education CBSE Board banglore, and completed my bachelor Degree in Hotel Management from banglore, I have complted my Industrial tranning in hotel Taj from udaipur and in hotel Obroy from banglore and hotel Itcgreen from mumbai.Now I am pursuing BCA from ibirds college in Ajmer.My Aim is I want to become a web developer.My dream place is new york & Dubai. 
+								<button class="btn btn-sm btn-primary"data-toggle="modal"data-target="#btn" style="font-family:calibri">Read more</button>
+							</p>
+						</div>
+			
+						<div class="container">
+								<div class="modal fade" id="btn">
+									<div class="modal-dialog">
+										<div class="modal-content">
+												
+											<div class="modal-body">
+												<table class="table table hover"border="2px solid black">
+				
+	
+												<h2 style="text-align:center">User Profile Card</h2>
+															<div class="card">
+													<img src="image/bk2.jpg" alt="John" style="width:100%">
+														<h1>Shaikh Mohiuddin</h1>
+															<p class="title">CEO & Founder, Example</p>
+																<p>iBirds college</p>
+												<div style="margin:24px">
+														<a href="#"><i class="fa fa-dribbble"></i></a> 
+														<a href="twitter.com/ShaikhMohiudd15"><i class="fa fa-twitter"></i></a>  
+													    <a href="#"><i class="fa fa-linkedin"></i></a>  
+														<a href="#"><i class="fa fa-facebook"></i></a> 
+														<a href="instagram.com/shaikh__mohiuddin"><i class="fa fa-instagram"></i></a> 
+												</div>
+													<p><button class="bt">Profile</button></p>
+													</div>
+
+											</table>	
+											</div>
+											<div class="modal-footer">
+											<button class="btn btn-info" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>						
+					</div>				
+				</div>
+				<div id="education" class="container-fluid">
+					<h1 align="center" style="padding-top:40px;color:blue">Education</h1>
+				<div class="row">
+					<div class="eduction1" style="padding-top:40px;">
+						<table class="table table-bordered"   style="height:50%;width:100%;color:white;font-weight:bold;background-size:cover">
+						
+							<tr>
+								<th>Class</th>
+								<th>Name Of Board</th>
+								<th>Year</th>
+								<th>Presantege</th>
+							</tr>
+							<tr>
+								<td>10Th</td>
+								<td>CBSE</td>
+								<td>2014</td>
+								<td>75%</td>
+							</tr>
+							<tr>
+								<td>12th</td>
+								<td>CBSE</td>
+								<td>2016</td>
+								<td>85%</td>
+							</tr>
+							<tr>
+								<td>BSC</td>
+								<td>IHM</td>
+								<td>2016</td>
+								<td>64%</td>
+							</tr>
+							<tr>
+								<td>BCA</td>
+								<td>IBIRDS</td>
+								<td>2019</td>
+								<td>-</td>
+							</tr>
+						</table>
+						
+					</div>
+					</div>
+				</div>
+				<div id="skills" class="container-fluid">
+					<div class="row">
+						<h1 align="center"class="skill" style="padding-top:40px;color:blue">My Skills</h1>
+						<div class="skill1 col-md-6" style="padding-top:20px;color:white">
+							<h4>HTML</h4>
+							<div class="progress">
+								<div class="progress-bar  progress-bar-success progress-bar-striped progress-bar-striped active" role="progressbar" style="width:85%;">85%
+									<span class="sr-only">80% Complete</span>
+								</div>
+							</div>
+							<h4>C-Language</h4>
+							<div class="progress">
+								<div class="progress-bar progress-bar-default progress-bar-striped progress-bar-striped active" style="width:70%;">70%
+								</div>
+							</div>
+							<h4>Bootstrap</h4>
+							<div class="progress">
+								<div class="progress-bar progress-bar-info progress-bar-striped progress-bar-striped active" style="width:85%;">85%
+								</div>
+							</div>
+		      			</div>
+						<div class="skill2 col-md-6"style="padding-top:20px;color:white">
+							<h4>CSS</h4>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success progress-bar-striped progress-bar-striped active" style="width:85%;">85%
+								</div>
+							</div>
+							<h4>Networking</h4>
+							<div class="progress">
+								<div class="progress-bar progress-bar-default progress-bar-striped progress-bar-striped active" style="width:80%;">80%
+								</div>
+							</div>
+							<h4>Tally</h4>
+							<div class="progress">
+								<div class="progress-bar progress-bar-info progress-bar-striped progress-bar-striped active" style="width:70%;">70%
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="container-fluid" align="center">
+					<div class="row">
+						<h1 align="center"style="color:blue;font-family:cambria;font-size:45px;padding-top:60px"id="hobbies">Hobbies</h1>
+						<div class="col-md-3">
+							<img src="image/m.png" class="img-responsive" style="height:40%"/>
+							<h1 style="font-family:gabriola;margin-top:-5px;color:white">Trans</h1>
+						</div>
+						<div class="col-md-3">
+							<img src="image/c.ico" class="img-responsive" style="height:35%"/>
+							<h1 style="font-family:gabriola;color:white">Photography</h1>
+						</div>
+						<div class="col-md-3">
+							<img src="image/t.png" class="img-responsive" style="height:35%"/>
+							<h1 style="font-family:gabriola;color:white">Traviling</h1>
+						</div>
+						<div class="col-md-3">
+							<img src="image/h.png" class="img-responsive" style="height:35%"/>
+							<h1 style="font-family:gabriola;color:white">Swimming</h1>
+						</div>
+					</div>	
+				</div>
+				<div id="portfolio" class="container-fluid">
+					
+					<div class="row">
+						
+						<div class="col-lg-12 text-center wow fadeInDown animated">
+							<h2 class="section-heading" style="margin-top:60px;color:blue">My <span class="color-red">Portfolio</span></h2>
+							<h3 class="section-subheading text-muted" style="color:white;">Some photo I'm sharing with you.</h3>
+						</div>
+                   </div>
+                <div class="row container-fluid">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                     <div class="thumbnail">
+                       <div class="caption">
+                           <h4>Enjoy with Friend</h4>
+                           <p></p>
+                           <p><button class="btn btn-info" data-toggle="modal" data-target="#First">Open</button></p>
+                       </div>
+                       <div class="modal fade" id="First">
+                          <div class="modal-dialog">
+                              <div class="modal-content" style="background-color:#f0f0f0;">
+                                  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+                                      <h1>Enjoy with Friend</h1>
+                                  </div>
+                                  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px;">
+                                      <img src="image/21.jpg" style="height:60%;width:100%" class="img-responsive imagesize"/>
+                                  </div>
+                                  <div class="modal-footer">
+                                      <div class="col-md-6 col-sm-6" align="left">
+                                        <div class="col-md-12">
+                                            <ul class="social-network social-circle" type="none">
+                                                <li><a href="http://www.facebook.com" target="_blank" class="icoFacebook" title="Facebook" style="font-size:20px;"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://twitter.com" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="http://www.linkedin.com" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+												<li><a href="https://www.instagram.com" target="_blank" class="icoInsta" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+											</ul>				
+                                        </div>
+                                    </div>
+                                      <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>  
+                        <img src="image/1234.jpg" alt="..." style="width:320px; height:190px;">
+                     </div>				
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">            
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <h4>Me</h4>
+                                <p></p>
+                                <p><button class="btn btn-info" data-toggle="modal" data-target="#Second">Open</button></p>
+                            </div>
+							 <div class="modal fade" id="Second">
+							  <div class="modal-dialog">
+								  <div class="modal-content" style="background-color:#f0f0f0;">
+									  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+											</button>
+										  <h1>I'm Moin</h1>
+									  </div>
+									  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px;">
+										  <img src="image/bk1.jpg" style="height:70%;width:100%" class="img-responsive imagesize"/>
+									  </div>
+									  <div class="modal-footer">
+										  <div class="col-md-6 col-sm-6" align="left">
+											<div class="col-md-12">
+												<ul class="social-network social-circle" type="none">
+													<li><a href="http://www.facebook.com" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+													<li><a href="https://twitter.com" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+													<li><a href="http://www.linkedin.com" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+													<li><a href="https://www.instagram.com" target="_blank" class="icoInsta" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+												</ul>				
+											</div>
+										</div>
+										  <button class="btn btn-danger" data-dismiss="modal">Close</button>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+                            <img src="image/bk1.jpg" alt="..." style="height:190px;width:320px;">
+                        </div>
+                    </div>
+                  
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">            
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h4>In College</h4>
+                            <p style="color:white;">Fun with friend in my college</p>
+                            <p><button class="btn btn-info" data-toggle="modal" data-target="#three">Open</button></p>
+                        </div>
+						<div class="modal fade" id="three">
+							  <div class="modal-dialog">
+								  <div class="modal-content" style="background-color:#f0f0f0;">
+									  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+									  </div>
+									  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px;">
+										  <img src="image/frind.jpg" class="img-responsive imagesize"/>
+									  </div>
+									  <div class="modal-footer">
+										  <div class="col-md-6 col-sm-6" align="left">
+											<div class="col-md-12">
+												<ul class="social-network social-circle" type="none">
+													<li><a href="http://www.facebook.com" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+													<li><a href="https://twitter.com" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+													<li><a href="http://www.linkedin.com" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+													<li><a href="https://www.instagram.com" target="_blank" class="icoInsta" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+												</ul>				
+											</div>
+										</div>
+										  <button class="btn btn-danger" data-dismiss="modal">Close</button>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+                        <img src="image/876.jpg" alt="..." style="height:190px;width:320px;">
+                    </div>  
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">            
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <h4>Celebrate Eid</h4>
+                                <p style="color:white;">Full fun with my family</p>
+                                <p><button class="btn btn-info" data-toggle="modal" data-target="#fourth">Open</button></p>
+                            </div>
+							<div class="modal fade" id="fourth">
+							  <div class="modal-dialog">
+								  <div class="modal-content" style="background-color:#f0f0f0;">
+									  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+										  <h1>Celebrate EID</h1>
+
+									  </div>
+									  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px;">
+										  <img src="image/88.jpg" class="img-responsive"/>
+									  </div>
+									  <div class="modal-footer">
+										  <div class="col-md-6 col-sm-6" align="left">
+											<div class="col-md-12">
+												<ul class="social-network social-circle" type="none">
+													<li><a href="http://www.facebook.com" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+													<li><a href="https://twitter.com" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+													<li><a href="http://www.linkedin.com" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+													<li><a href="https://www.instagram.com" target="_blank" class="icoInsta" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+												</ul>				
+											</div>
+										</div>
+										  <button class="btn btn-danger" data-dismiss="modal">Close</button>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+                            <img src="image/344.jpg" alt="..." style="width:320px; height:190px;">
+                        </div>
+                    </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">            
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h4>Fresher Party</h4>
+                            <p style="color:white;">Fun with friend and Seniors</p>
+                            <p><button class="btn btn-info" data-toggle="modal" data-target="#five">Open</button></p>
+                        </div>
+						<div class="modal fade" id="five">
+							  <div class="modal-dialog">
+								  <div class="modal-content" style="background-color:#f0f0f0;">
+									  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+											</button>
+										  <h1>Fresher Party</h1>
+
+									  </div>
+									  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px;">
+										  <img src="image/88.jpg" class="img-responsive imagesize"/>
+									  </div>
+									  <div class="modal-footer">
+										  <div class="col-md-6 col-sm-6" align="left">
+											<div class="col-md-12">
+												<ul class="social-network social-circle" type="none">
+													<li><a href="http://www.facebook.com" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+													<li><a href="https://twitter.com" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+													<li><a href="http://www.linkedin.com" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+													<li><a href="https://www.instagram.com_/?hl=en" target="_blank" class="icoInsta" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+												</ul>				
+											</div>
+										</div>
+										  <button class="btn btn-danger" data-dismiss="modal">Close</button>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+                        <img src="image/21.jpg" alt="..." style="width:320px; height:190px;">
+                    </div>  
+                </div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">            
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h4>Farewell Party</h4>
+                            <p style="color:white;">Memoriable Moment with Teacher</p>
+                            <p><button class="btn btn-info" data-toggle="modal" data-target="#six">Open</button></p>
+                        </div>
+						<div class="modal fade" id="six">
+							  <div class="modal-dialog">
+								  <div class="modal-content" style="background-color:#f0f0f0;">
+									  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+											</button>
+										  <h1>Farewell Party</h1>
+
+									  </div>
+									  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px;">
+										  <img src="image/251.jpg" class="img-responsive imagesize"/>
+									  </div>
+									  <div class="modal-footer">
+										  <div class="col-md-6 col-sm-6" align="left">
+											<div class="col-md-12">
+												<ul class="social-network social-circle" type="none">
+													<li><a href="http://www.facebook.com" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+													<li><a href="https://twitter.com" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+													<li><a href="http://www.linkedin.com" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+													<li><a href="https://www.instagram.com_/?hl=en" target="_blank" class="icoInsta" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+												</ul>				
+											</div>
+										</div>
+										  <button class="btn btn-danger" data-dismiss="modal">Close</button>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+                        <img src="image/241.jpg" alt="..." style="width:320px; height:190px;">
+                    </div>  
+                </div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">            
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h4>Memories</h4>
+                            <p style="color:white;">Memoriable Moments</p>
+                            <p><button class="btn btn-info" data-toggle="modal" data-target="#seven">Open</button></p>
+                        </div>
+						<div class="modal fade" id="seven">
+							  <div class="modal-dialog">
+								  <div class="modal-content" style="background-color:#f0f0f0;">
+									  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+											</button>
+										  <h1>Memories</h1>
+
+									  </div>
+									  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px;">
+										  <img src="image/26.jpg" class="img-responsive imagesize"/>
+									  </div>
+									  <div class="modal-footer">
+										  <div class="col-md-6 col-sm-6" align="left">
+											<div class="col-md-12">
+												<ul class="social-network social-circle" type="none">
+													<li><a href="http://www.facebook.com" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+													<li><a href="https://twitter.com" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+													<li><a href="http://www.linkedin.com" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+													<li><a href="https://www.instagram.com_/?hl=en" target="_blank" class="icoInsta" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+												</ul>				
+											</div>
+										</div>
+										  <button class="btn btn-danger" data-dismiss="modal">Close</button>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+                        <img src="image/8.jpg" alt="..." style="width:320px; height:190px;">
+                    </div>  	
+                </div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">            
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h4>Having Fun</h4>
+                            <p style="color:white;">Sistas Love</p>
+                            <p><button class="btn btn-info" data-toggle="modal" data-target="#eight">Open</button></p>
+                        </div>
+						<div class="modal fade" id="eight">
+							  <div class="modal-dialog">
+								  <div class="modal-content" style="background-color:#f0f0f0;">
+									  <div class="modal-header" style="margin:0 auto; color:black" align="center">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+											</button>
+										  <h1>Having Fun</h1>
+
+									  </div>
+									  <div class="modal-body" style="padding:2px 2px 2px 2px; margin:2px 2px 2px 2px;">
+										  <img src="image/9.jpg "style="height:60%;width:100%" class="img-responsive imagesize"/>
+									  </div>
+									  <div class="modal-footer">
+										  <div class="col-md-6 col-sm-6" align="left">
+											<div class="col-md-12">
+												<ul class="social-network social-circle" type="none">
+													<li><a href="http://www.facebook.com" target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+													<li><a href="https://twitter.com" target="_blank" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+													<li><a href="http://www.linkedin.com" target="_blank" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+													<li><a href="https://www.instagram.com_/?hl=en" target="_blank" class="icoInsta" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+												</ul>				
+											</div>
+										</div>
+										  <button class="btn btn-danger" data-dismiss="modal">Close</button>
+									  </div>
+								  </div>
+							  </div>
+							</div>
+                        <img src="image/9.jpg" alt="..." style="width:320px; height:190px;">
+                    </div>  
+                </div>
+            </div>
+        </div>
+	 
+			<div id="contact" class="container-fluid">
+					<h1 class="eduction"align="center" style="padding-top:50px;color:blue">Contact</h1>
+				
+			<div class="row" style="padding-top:30px;color:white">
+				<form method="post" action="" id="contactfrm" role="form">
+					<div class="col-sm-3">
+                        <div class="form-group">
+                            <label for="name"><b size="4px">Name</b></label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><b size="4px">Email</b></label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
+                        </div>
+						<div class="form-group">
+                            <label for="comments"><b size="4px">Comments</b></label>
+                            <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message" title="Please enter your message (at least 10 characters)"STYLE="RESIZE:NONE;"></textarea>
+                        </div>
+                        <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
+                        <div class="result"></div>
+                    </div>
+                </form>
+					<div class="col-sm-4">
+						<h4><b>Address:</b></h4>
+						<font size="3px">
+						<address>
+							146/21 Kishan Gurnani Mohalla<br>
+							Out Side Delhi Gate Furfura Darbar.<br/>
+							Ajmer (raj).305001.						 
+						</address>
+						</font>
+						<h4><b>Phone:</b></h4>
+						<font size="3px">
+						<address>
+							(+91)8003538570<br>
+						</address>
+						</font>
+						<h4><b>E-mail:</b></h4>
+						<font size="3px">
+						<address>
+							mohdmohiuddin106@gmail.com<br>
+						</address>
+						</font>
+						<ul class="social-network social-circle">
+							<li><a href="https://www.rss.com/login" class="icoRss" title="Rss"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://twitter.com/login" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://plus.google.com/collections/featured" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="https://in.linkedin.com/" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+				<div class="col-sm-5">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.9583648158277!2d74.6289303492517!3d26.45707098324413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be71a3512997d%3A0xb6b82fb37a396578!2sSPOT%20ON%2079458%20Hotel%20Zamzam%20Ajmer!5e0!3m2!1sen!2sin!4v1643024096254!5m2!1sen!2sin" width="100%" height="350" frameborder="0" style="border:0"></iframe>
+                </div>
+            </div>
+        </div>
+		<script>
+			$(document).ready(function(e){
+				$("#menu-nav a").click(function(e){
+					if(this.hash!=" ")
+					{
+						var hash=this.hash;
+						$("body").animate({						
+							scrollTop:$(hash).offset().top
+							},1000,function(){
+								window.location.hash=hash;
+							});						
+					}
+				});
+			});
+		</script>		
+	</body>				
+</html>
